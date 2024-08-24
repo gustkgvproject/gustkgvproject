@@ -1,0 +1,276 @@
+.about-link {
+    background-color: #262626;
+    color: #f3f4f0;
+}
+/* ABOUT US START --------------------------------- */
+.about-us-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    /*min-height: 1100px;*/
+    color: #f3f4f0;
+    background: #000;
+    background-image: url("../media/photos/flota-coches.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -300px;
+    /*padding: 30px 60px;*/
+    overflow: hidden;
+}
+.about-us-title {
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 54px; /*104px*/
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+/* HERO SECTION START ------------------------------*/
+.about-us-hero-section, 
+.about-us-hero-section .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.about-us-hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../media/photos/pexels-fauxels-3183150.jpg");
+    background-size: cover;
+}
+.about-us-hero-section::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 38, 38, 0.70);
+    z-index: 1;
+}
+.about-us-hero-section .text-wrapper {
+    z-index: 2;
+}
+.about-us-hero-section h2,
+.about-us-hero-section p {
+    color: #f3f4f0;
+    font-family: "Gupter", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-left: 80px;
+}
+.about-us-hero-section h2 {
+    font-size: 68px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.about-us-hero-section h2 span {
+    font-family: "Gupter", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.about-us-hero-section p{
+    width: 50%;
+    font-family: "Lato Light";
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-us-hero-section a{
+    font-family: "Lato Bold";
+    padding: 15px 35px;
+    color: #262626;
+    background-color: #f3f4f0; /*#262626 #D4967D*/
+
+    margin-left: 80px;
+    transition: all 300ms;
+}
+.about-us-hero-section a:hover{
+    cursor: pointer;
+    color: #f3f4f0;
+    background-color: #262626; /*#D4967D*/
+}
+/* HERO SECTION END --------------------------------*/
+
+/* ABOUT US BLOCK START --------------------------------*/
+.about-us-text-block,
+.about-us-exp-block,
+.about-us-acuerdo-block {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    color: #262626;
+}
+.about-us-text-block .text-wrapper,
+.about-us-exp-block .text-wrapper,
+.about-us-acuerdo-block .text-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+}
+.about-us-text-block h2,
+.about-us-exp-block h2,
+.about-us-acuerdo-block h2 {
+    font-family: "Gupter", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 54px;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+}
+.about-us-text-block p,
+.about-us-exp-block p,
+.about-us-acuerdo-block p {
+    width: 100%;
+    font-family: "Lato Light";
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.about-us-text-block .image-wrapper,
+.about-us-exp-block .image-wrapper,
+.about-us-acuerdo-block .image-wrapper {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    background-size: cover;
+    background-position: center;
+    z-index: 5;
+}
+.about-us-text-block .image-wrapper::after,
+.about-us-exp-block .image-wrapper::after,
+.about-us-acuerdo-block .image-wrapper::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid #323232; /*#f3f4f0*/
+    z-index: 1;
+}
+
+/* COMPROMISO SECTION */
+.about-us-text-block .image-wrapper {
+    background-image: url("../media/photos/pexels-karolina-grabowska-5398881.jpg");
+}
+.about-us-text-block .image-wrapper::after{
+    top: -30px;
+    left: 30px;
+}
+
+/* EXPERIENCIA */
+.about-us-exp-block ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+    font-family: "Lato Bold";
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.about-us-exp-block ul li{
+    color: #262626;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f3f4f0;
+}
+.about-us-exp-block .image-wrapper {
+    background-image: url("../media/photos/flota-coches.jpg");
+}
+.about-us-exp-block .image-wrapper::after{
+    top: -30px;
+    left: -30px;
+}
+
+/* ACUERDO */
+.about-us-acuerdo-block p span{
+    font-family: "Lato Bold";
+}
+.about-us-acuerdo-block .image-wrapper {
+    background-image: url("../media/photos/hands-joined-by-team.jpg");
+}
+.about-us-acuerdo-block .image-wrapper::after{
+    top: -30px;
+    left: 30px;
+}
+/* ABOUT US BLOCK END -------------------------------*/
+
+/* MESSAGE SECTION START ----------------------------*/
+.about-us-msg-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px 40px;
+}
+.about-us-msg-section h2 {
+    color: #262626;
+    font-family: "Lato Thin";
+    font-size: 44px;
+    letter-spacing: 2px;
+
+}
+.about-us-msg-section a {
+    color: #f3f4f0;
+    font-family: "Lato Black";
+    letter-spacing: 2px;
+    background-color: #262626;
+    border: 1px solid #262626;
+    padding: 10px 20px;
+    margin-top: 15px;
+    transition: all 300ms;
+}
+.about-us-msg-section a:hover {
+    cursor: pointer;
+    color: #262626;
+    background-color: transparent;
+}
+/* MESSAGE SECTION END ------------------------------*/
+
+/* VALUES START ----------------------------------- */
+.values-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    color: #f3f4f0;
+    background: #000;
+}
+.values-section .value-item {
+    font-family: "Lato Thin";
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+/* VALUES END -------------------------------------- */
