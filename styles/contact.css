@@ -45,6 +45,10 @@
     line-height: 1.5;
     margin-bottom: 30px;
 }
+.find-us-text span {
+    font-size: 22px;
+    font-weight: bold;
+}
 .find-us-section .phone,
 .find-us-section .email{
     font-family: "Lato Regular";
