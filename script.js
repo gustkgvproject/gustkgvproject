@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById('video-hero');
+    video.play();
+});
+
 /*
 let icon = document.querySelector('.header-icon-container');
 
