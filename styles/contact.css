@@ -46,8 +46,12 @@
     margin-bottom: 30px;
 }
 .find-us-phrase {
-    font-size: 26px;
-    font-weight: bolder;
+    box-sizing: border-box;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #262626;
 }
 .find-us-section .phone,
 .find-us-section .email{
