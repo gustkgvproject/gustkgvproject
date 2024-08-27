@@ -180,23 +180,6 @@
 }
 
 /* EXPERIENCIA */
-.about-us-exp-block ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 100%;
-    list-style-type: none;
-    font-family: "Lato Bold";
-    text-transform: uppercase;
-    margin-bottom: 40px;
-}
-.about-us-exp-block ul li{
-    color: #262626;
-    text-align: center;
-    padding: 10px 20px;
-    background-color: #f3f4f0;
-}
 .about-us-exp-block .image-wrapper {
     background-image: url("../media/photos/flota-coches.jpg");
 }
