@@ -191,6 +191,7 @@
 /* ACUERDO */
 .about-us-acuerdo-block p span{
     font-family: "Lato Bold";
+    text-transform: uppercase;
 }
 .about-us-acuerdo-block .image-wrapper {
     background-image: url("../media/photos/hands-joined-by-team.jpg");
